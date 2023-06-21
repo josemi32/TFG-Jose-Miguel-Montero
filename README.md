@@ -14,6 +14,7 @@
     -En la carpeta R se encuentra el pdf obtenido de Rstudio donde se ha realizado los analisis estadiscticos comparativos de los modelos entrenados con las medidas clásicas BRISQUE,PIQE y NIQE.
 
 -En la carpeta Valores de calidad:
+    
     -Matlab:
           - Los archivos csv donde se han guardado todos los valores dados por las medidas clásicas tanto a las imágenes de entreno como a las de validación.
     -Python:
