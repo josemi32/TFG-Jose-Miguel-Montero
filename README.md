@@ -71,6 +71,7 @@ Device cpu si no se dispone de cuda y si no  device = torch.device("cuda:0") con
 
 
 Para poder cargar los pesos del modelo se hace con la siguiente linea:
+
     Los .. es la direccion donde se tenga guardada la carpeta de pesos.
     PATH = '..\Pesos\modeltranformaciones.pt'
     Modelo.load_state_dict(torch.load(PATH))
@@ -86,4 +87,5 @@ Y para finalizar para poder usarlo en modo prediccion hay que ponerlo en modo ev
 Una vez hecho eso se podra utilizar para las imagenes que se deseen.
   
 Repositorio de imagenes del proyecto y de los pesos de los modelos que son necesarios cargar:
+
   -https://drive.google.com/drive/folders/1UwETo5a2imlZXlsy0wvZFKoSmZP1qXlO?usp=sharing
