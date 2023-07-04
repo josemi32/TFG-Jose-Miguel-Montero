@@ -80,7 +80,7 @@ Para poder cargar los pesos del modelo se hace con la siguiente linea:
 
 Y para finalizar para poder usarlo en modo prediccion hay que ponerlo en modo eval:
 
-    Modelo.eval()
+    Modelo.eval() y pasar las imagenes que se deseen probar a 299 x 299
 
 
 
